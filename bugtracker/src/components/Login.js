@@ -17,7 +17,7 @@ function Login() {
                 <input 
                     type='email'
                     name='email'
-                    value=''
+                    // value=''
                     placeholder='Your email'
                 />
 
@@ -25,7 +25,7 @@ function Login() {
                 <input 
                     type='password'
                     name='password'
-                    value=''
+                    // value=''
                     placeholder='Your email'
                 />
 

@@ -1,0 +1,31 @@
+.containerHome{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(223, 223, 223, 0.781);
+}
+
+.menuLinks{
+    background-color: rgba(98, 114, 150, 0.781);
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    margin: 0 2rem;
+    border-radius: 2rem;
+    border: 2px solid #3c4fe0;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.menuLinks:hover{
+    
+}
+.menuLinks img{
+    width: 13rem;
+    margin-bottom: 1rem;
+}

@@ -1,12 +1,13 @@
 import React from 'react'
 import '../styles/login.css'
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
 
 function Login() {
 
+    const history = useHistory()
+
     function submit(e){
-        e.preventDefault()
-        alert('holis')
+        history.push('/home')
     }
 
   return (

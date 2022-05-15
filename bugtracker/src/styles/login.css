@@ -20,17 +20,20 @@
 .popUpLogin h1{
     color: #3c4fe0;
     font-size: 2.5rem;
-    margin: 1rem 0;
+    margin: 2rem 0 1rem 0;
 }
 .popUpLogin p{
-    margin: 0;
+    margin: 0.5rem;
+}
+.popUpLogin p:last-of-type{
+  margin-bottom: 2rem;
 }
 
 .formLogin{
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 2rem 0;
+    padding: 0;
     justify-content: center;
     align-items: center;
 }
@@ -83,7 +86,7 @@
   will-change: box-shadow,transform;
   font-size: 18px;
   width: 50%;
-  margin-top: 2rem;
+  margin: 2rem 0 1rem 0;
 }
 
 .formLogin button:focus {
@@ -98,4 +101,15 @@
 .formLogin button:active {
   box-shadow: #3c4fe0 0 3px 7px inset;
   transform: translateY(2px);
+}
+
+.link{
+  text-decoration: none;
+  color: #3c4fe0;
+  font-weight: 500;
+  transition: 0.2s;
+}
+.link:hover{
+  border-bottom: 1px solid #3c4fe0;
+  transition: 0.2s;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/login.css'
+import { Link } from 'react-router-dom'
 
 function Login() {
 
@@ -26,13 +27,19 @@ function Login() {
                     type='password'
                     name='password'
                     // value=''
-                    placeholder='Your email'
+                    placeholder='Your password'
                 />
 
                 <button type='submit'>Login</button>
             </form>
-            <p>Forgot your password? Click here</p>
-            <p>Don't have an account? Sign Up</p>
+
+            <p>Forgot your password?  
+                <Link to='#' className='link'> Click here</Link>
+            </p>
+            
+            <p>Don't have an account?  
+                <Link to='signup' className='link'> Sign Up</Link>
+            </p>
         </div>
     </div>
   )
